@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punjabi's 80's Top List ..SoulSounds.com</title>
+  <link rel="stylesheet" href="80's.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-icon">🎧..</span>SoulSounds</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="pre.html">Premium</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Top Punjabi Songs Of 80's</h1>
+          <h1>KEEP ਪੰਜਾਬੀ MUSIC ALIVE</h1>
+        </div>
+      </section>
+  </header>
+  <div class="section">
+    <!--<div class="header">
+      <h2>Today's Top Hits</h2>
+    </div>
+
+     Song 1 -->
+     <div class="song">
+      <div class="cover">
+        <img src="ba.jpg" alt="Blinding Lights">
+      </div>
+      <div class="info">
+        <div class="title">Banoti Yaar </div>
+        <div class="artist">Kuldeep Manak</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio1', this)">▶</button>
+      <audio id="audio1" src="Banoti Yaar - Kuldeep Manak.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="l.jpg" alt="Levitating">
+      </div>
+      <div class="info">
+        <div class="title">Phele Lalkare Naal</div>
+        <div class="artist">Amar Singh Chamkila</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio2', this)">▶</button>
+      <audio id="audio2" src="Pehle Lalkare Naal - Amar Singh Chamkila.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="yaar.jpg" alt="As It Was">
+      </div>
+      <div class="info">
+        <div class="title">Tera Yaar Bolda</div>
+        <div class="artist">Surjit Bindrakhia</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio3', this)">▶</button>
+      <audio id="audio3" src="Tera Yaar Bolda - Surjit Bindrakhia.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="akhh.jpg" alt="295">
+      </div>
+      <div class="info">
+        <div class="title">Ek Meri Akh Kashni</div>
+        <div class="artist">Surinder Kaur</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio4', this)">▶</button>
+      <audio id="audio4" src="Ek Meri Akh Kashni - Surinder Kaur.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="kan.jpg" alt="Excuses">
+      </div>
+      <div class="info">
+        <div class="title">Kan Kar Gal Sun Makhna</div>
+        <div class="artist">Amar Singh Chamkila </div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio5', this)">▶</button>
+      <audio id="audio5" src="Kan Kar Gal Sun Makhna - Amar Singh Chamkila.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="h.jpg" alt="Flowers">
+      </div>
+      <div class="info">
+        <div class="title">Lathe Di Chadar</div>
+        <div class="artist">Surinder Kaur </div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio6', this)">▶</button>
+      <audio id="audio6" src="Lathe Di Chadar - Surinder Kaur.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="dp.jpg" alt="Industry Baby">
+      </div>
+      <div class="info">
+        <div class="title">Do Pall</div>
+        <div class="artist">Surinder Kaur</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio7', this)">▶</button>
+      <audio id="audio7" src="Do Pall (PenduJatt.Com.Se).mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="bitti.jpg" alt="Calm Down">
+      </div>
+      <div class="info">
+        <div class="title">Boliyan </div>
+        <div class="artist">Satinder Bitti</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio8', this)">▶</button>
+      <audio id="audio8" src="Boliyan.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="k.jpg" alt="Stay">
+      </div>
+      <div class="info">
+        <div class="title">Baba Ve Kala Maror</div>
+        <div class="artist">Jagmohan Kaur</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio9', this)">▶</button>
+      <audio id="audio9" src="Baba Ve Kala Maror - Various.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="du.jpg" alt="Kill Bill">
+      </div>
+      <div class="info">
+        <div class="title">Ki Banu Duniya Da</div>
+        <div class="artist">Gurdass Maan</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio10', this)">▶</button>
+      <audio id="audio10" src="Ki Banu Duniya Da.mp3"></audio>
+    </div>
+  </div>
+
+  <script>
+    let currentAudio = null;
+    let currentButton = null;
+
+    function togglePlay(audioId, button) {
+      const audio = document.getElementById(audioId);
+
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+        if (currentButton) currentButton.textContent = "▶";
+      }
+
+      if (audio.paused) {
+        audio.play();
+        button.textContent = "⏸";
+        currentAudio = audio;
+        currentButton = button;
+      } else {
+        audio.pause();
+        button.textContent = "▶";
+      }
+
+      audio.onended = () => {
+        button.textContent = "▶";
+      };
+    }
+  </script><br><br>
+  <footer>
+    <p>&copy; 2025 SoulSounds</p>
+  </footer>
+</body>
+</html>
