@@ -1,0 +1,191 @@
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SoulSounds.com</title>
+      <link rel="stylesheet" href="radio.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <span class="logo-icon">🎧..</span>SoulSounds</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="pre.html">Premium</a></li>
+            
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Top's Radio Hits </h1>
+          <h1>Feel the Music</h1>
+          <!--<p>Millions of songs. No credit card needed.</p>
+          <a href="#" class="btn">Get Spotify Free</a>-->
+        </div>
+      </section>
+  <div class="section">
+    <!--<div class="header">
+      <h2>Today's Top Hits</h2>
+    </div>
+
+     Song 1 -->
+     <div class="song">
+      <div class="cover">
+        <img src="gu.jpg" alt="Blinding Lights">
+      </div>
+      <div class="info">
+        <div class="title">Gulab Sidhu's Podcast</div>
+        <div class="artist">Anmol Kwatra</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio1', this)">▶</button>
+      <audio id="audio1" src="new"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="gal.webp" alt="Levitating">
+      </div>
+      <div class="info">
+        <div class="title">Gal Te Gal - ਜੀਹਦੀ ਕੋਠੀ ਦਾਣੇ, ਓਹਦੇ ਕਮਲੇ ਵੀ ਸਿਆਣੇ</div>
+        <div class="artist">Manvir Kaur</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio2', this)">▶</button>
+      <audio id="audio2" src="dane"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="g.jpg" alt="As It Was">
+      </div>
+      <div class="info">
+        <div class="title">ਜ਼ਰੂਰੀ ਨਹੀਂ ਥੋਨੂੰ ਹਰ ਗੱਲ ਪਹਿਲੀ ਵਾਰ 'ਚ ਹੀ ਸਮਝ ਆਜੇ</div>
+        <div class="artist">Manveer Sidhu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio3', this)">▶</button>
+      <audio id="audio3" src="jruri"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="videoframe_5209.png" alt="295">
+      </div>
+      <div class="info">
+        <div class="title">Gal te Gal - ਤੁਹਾਡਾ ਵੀ ਸਮਾਂ ਆਵੇਗਾ</div>
+        <div class="artist">Gurdeep Grewal and Rupinder Sandhu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio4', this)">▶</button>
+      <audio id="audio4" src="time"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="bh.jpg" alt="Excuses">
+      </div>
+      <div class="info">
+        <div class="title"> ਭੈਣਾਂ ਵਰਗਾ ਸਾਕ ਨਾ ਕੋਈ</div>
+        <div class="artist">Manveer Sidhu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio5', this)">▶</button>
+      <audio id="audio5" src="ezyZip.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="panni.jpg" alt="Flowers">
+      </div>
+      <div class="info">
+        <div class="title">ਖੜ੍ਹੇ ਪਾਣੀਆਂ ਵਰਗੇ ਲੋਕ</div>
+        <div class="artist">Manveer Sidhu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio6', this)">▶</button>
+      <audio id="audio6" src="warge"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="videoframe_4316.png" alt="Industry Baby">
+      </div>
+      <div class="info">
+        <div class="title">ਟੁੱਟ ਜਾਣ ਦਾ ਮਤਲਬ ਖ਼ਤਮ ਹੋਣਾ ਨਹੀਂ ਹੁੰਦਾ</div>
+        <div class="artist">Manveer Kaur</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio7', this)">▶</button>
+      <audio id="audio7" src="B Social Podcast (Punjabi Podcast)-episode-Gal Te Gal _ ਟੁੱਟ ਜਾਣ ਦਾ ਮਤਲਬ ਖ਼ਤਮ ਹੋਣਾ ਨਹੀਂ ਹੁੰਦਾ.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="maa.jpg" alt="Calm Down">
+      </div>
+      <div class="info">
+        <div class="title">ਇੱਕ ਮਾਂ ਈ ਆ ਜਿਹੜੀ ਕਦੇ ਤਾਨ੍ਹਾ ਨੀ ਮਾਰਦੀ </div>
+        <div class="artist">Manveer Kaur</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio8', this)">▶</button>
+      <audio id="audio8" src="t"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="pod.jpg" alt="Stay">
+      </div>
+      <div class="info">
+        <div class="title">Conversation With Amrit Deol</div>
+        <div class="artist">Gurdeep Grewal</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio9', this)">▶</button>
+      <audio id="audio9" src="Amrit"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="roopi.jpg" alt="Kill Bill">
+      </div>
+      <div class="info">
+        <div class="title">Conversation With Roopi Gill </div>
+        <div class="artist">Gurdeep Grewal</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio10', this)">▶</button>
+      <audio id="audio10" src="roopigill"></audio>
+    </div>
+  </div>
+
+  <script>
+    let currentAudio = null;
+    let currentButton = null;
+
+    function togglePlay(audioId, button) {
+      const audio = document.getElementById(audioId);
+
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+        if (currentButton) currentButton.textContent = "▶";
+      }
+
+      if (audio.paused) {
+        audio.play();
+        button.textContent = "⏸";
+        currentAudio = audio;
+        currentButton = button;
+      } else {
+        audio.pause();
+        button.textContent = "▶";
+      }
+
+      audio.onended = () => {
+        button.textContent = "▶";
+      };
+    }
+  </script><br><br>
+  <footer>
+    <p>&copy; 2025 SoulSounds</p>
+  </footer>
+</body>
+</html>

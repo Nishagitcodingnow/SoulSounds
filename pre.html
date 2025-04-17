@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SoulSounds Premium</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /** {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #000, #121212);
+      color: white;
+      padding: 40px 20px;
+    }*/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem 2rem;
+  }
+  
+ 
+  .logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1DB954;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .logo-icon {
+    font-size:30px;
+    margin-right: 0.3em;
+    color: #1DB954;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+  
+  .nav-links li a:hover {
+    color: #1DB954;
+  }
+  
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    p.subtitle {
+      color: #b3b3b3;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #333;
+      border-radius: 16px;
+      padding: 30px;
+      background-color: #1e1e1e;
+      transition: 0.3s;
+    }
+    .card.highlight {
+      border-color: gold;
+      background-color: #2a2a00;
+    }
+    .card h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    .card p.price {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    ul.features {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+    ul.features li {
+      margin: 8px 0;
+      list-style: none;
+      position: relative;
+      padding-left: 20px;
+    }
+    ul.features li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #1db954;
+    }
+    .btn {
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .btn.premium {
+      background-color: gold;
+      color: black;
+    }
+    .btn.free {
+      background-color: #333;
+      color: white;
+    }
+    @media (max-width: 768px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+    footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #000;
+   font-size: 22px;
+    margin-top: 2rem;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <span class="logo-icon">🎧..</span>SoulSounds</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="pre.html">Premium</a></li>
+            
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <div class="container">
+    <h1>Go Premium. Be Unlimited.</h1>
+    <p class="subtitle">Experience music like never before with Premium features.</p>
+
+    <div class="cards">
+      <!-- Free Plan -->
+      <div class="card">
+        <h2>Free</h2>
+        <p class="price">$0/month</p>
+        <ul class="features">
+          <li>Shuffle play</li>
+          <li>Ads between tracks</li>
+          <li>Limited skips</li>
+        </ul>
+        <a href="index.html"> <button class="btn free">Stay Free</button></a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="card highlight">
+        <h2>Premium</h2>
+        <p class="price">$9.99/month</p>
+        <ul class="features">
+          <li>Ad-free music listening</li>
+          <li>Download songs</li>
+          <li>High quality audio</li>
+          <li>Unlimited skips</li>
+        </ul>
+        <a href="signup.html"> <button class="btn premium">Get Premium</button></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 SoulSounds</p>
+  </footer>
+
+</body>
+</html>

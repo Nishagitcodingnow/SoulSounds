@@ -1,0 +1,190 @@
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SoulSounds.com</title>
+      <link rel="stylesheet" href="top.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <span class="logo-icon">🎧..</span>SoulSounds</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="pre.html">Premium</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Today's Top List </h1>
+          <h1>Feel the Music</h1>
+          <!--<p>Millions of songs. No credit card needed.</p>
+          <a href="#" class="btn">Get Spotify Free</a>-->
+        </div>
+      </section>
+  <div class="section">
+    <!--<div class="header">
+      <h2>Today's Top Hits</h2>
+    </div>
+
+     Song 1 -->
+     <div class="song">
+      <div class="cover">
+        <img src="ikko.webp" alt="Blinding Lights">
+      </div>
+      <div class="info">
+        <div class="title">Ikko Rang</div>
+        <div class="artist">Bir Singh</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio1', this)">▶</button>
+      <audio id="audio1" src="Ikko Rang - Bir Singh.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="mul.jpg" alt="Levitating">
+      </div>
+      <div class="info">
+        <div class="title">Multan</div>
+        <div class="artist">Tiger</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio2', this)">▶</button>
+      <audio id="audio2" src="Multan - Tiger.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="bir.jpg" alt="As It Was">
+      </div>
+      <div class="info">
+        <div class="title">Birbal</div>
+        <div class="artist">Jang Dhillon, Tiger</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio3', this)">▶</button>
+      <audio id="audio3" src="Birbal - DjPunjab.Com.Se.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="lo.jpg" alt="295">
+      </div>
+      <div class="info">
+        <div class="title">Lahore</div>
+        <div class="artist">Gulab Sidhu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio4', this)">▶</button>
+      <audio id="audio4" src="Lahore - Gulab Sidhu.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="sad.jpg" alt="Excuses">
+      </div>
+      <div class="info">
+        <div class="title">Saade Waleya</div>
+        <div class="artist">Nav Dolorain</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio5', this)">▶</button>
+      <audio id="audio5" src="Saade Waleya - Nav Dolorain.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="dil.jpg" alt="Flowers">
+      </div>
+      <div class="info">
+        <div class="title">Aa Ja Diljaaniya</div>
+        <div class="artist">Amrinder Gill</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio6', this)">▶</button>
+      <audio id="audio6" src="Aa Ja Diljaaniya - Amrinder Gill.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="mere.jpg" alt="Industry Baby">
+      </div>
+      <div class="info">
+        <div class="title">Mere Naal Naal</div>
+        <div class="artist">Sargi Maan</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio7', this)">▶</button>
+      <audio id="audio7" src="Mere Naal Naal - Sargi Maan.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="off.jpg" alt="Calm Down">
+      </div>
+      <div class="info">
+        <div class="title">Off Roading</div>
+        <div class="artist">Khan Bhaini</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio8', this)">▶</button>
+      <audio id="audio8" src="Off Roading - DjPunjab.Com.Se.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="ni.jpg" alt="Stay">
+      </div>
+      <div class="info">
+        <div class="title">Love Talk</div>
+        <div class="artist">Nirvair Pannu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio9', this)">▶</button>
+      <audio id="audio9" src="Love Talk - Nirvair Pannu.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="akh.jpg" alt="Kill Bill">
+      </div>
+      <div class="info">
+        <div class="title">Akhan</div>
+        <div class="artist">Nirvair Pannu</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio10', this)">▶</button>
+      <audio id="audio10" src="Akhan - Nirvair Pannu.mp3"></audio>
+    </div>
+  </div>
+
+  <script>
+    let currentAudio = null;
+    let currentButton = null;
+
+    function togglePlay(audioId, button) {
+      const audio = document.getElementById(audioId);
+
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+        if (currentButton) currentButton.textContent = "▶";
+      }
+
+      if (audio.paused) {
+        audio.play();
+        button.textContent = "⏸";
+        currentAudio = audio;
+        currentButton = button;
+      } else {
+        audio.pause();
+        button.textContent = "▶";
+      }
+
+      audio.onended = () => {
+        button.textContent = "▶";
+      };
+    }
+  </script><br><br>
+  <footer>
+    <p>&copy; 2025 SoulSounds</p>
+  </footer>
+</body>
+</html>

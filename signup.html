@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - SoulSounds.com</title>
+  <!--<link rel="stylesheet" href="style.css">-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /** {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('bc.jpg');
+    }*/
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+    background-image: url(bc.jpg);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem 2rem;
+  }
+  
+ 
+  .logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1DB954;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .logo-icon {
+    font-size:30px;
+    margin-right: 0.3em;
+    color: #1DB954;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+  
+  .nav-links li a:hover {
+    color: #1DB954;
+  }
+  
+
+    .signup-container {
+      background-color: #121212;
+      opacity: 0.9;
+      padding: 2rem;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      margin-left: 35%;
+      margin-top: 3%;
+    }
+
+    .signup-container h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: white;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      color: white;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 6px;
+      background-color: #333;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #1DB954;
+      color: #fff;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 999px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #1ed760;
+    }
+
+    .signin-link {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .signin-link a {
+      color: #1DB954;
+      text-decoration: none;
+    }
+
+    .signin-link a:hover {
+      text-decoration: underline;
+    }
+    footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #000;
+    margin-top: 2rem;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /*.new{
+    background-image: url(bc.jpg);
+    width: 100%;
+
+  }*/
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <span class="logo-icon">🎧..</span>SoulSounds</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="pre.html">Premium</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+          </ul>
+        </nav>
+      </header>
+  <div class="signup-container">
+    
+    <h1>Sign Up for SoulSounds</h1>
+    <form>
+      <label for="name">Username</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <input type="submit" value="Sign Up" />
+    </form>
+
+    <div class="signin-link">
+      Already have an account? <a href="login.html">Log in</a>
+    </div>
+    
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 SoulSounds</p>
+  </footer>
+</body>
+</html>

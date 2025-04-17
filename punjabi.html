@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punjabi's Top List ..SoulSounds.com</title>
+  <link rel="stylesheet" href="pun.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-icon">🎧..</span>SoulSounds</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="pre.html">Premium</a></li>
+        
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Punjabi's Top Hits</h1>
+          <h1>KEEP ਪੰਜਾਬੀ MUSIC ALIVE</h1>
+        </div>
+      </section>
+  </header>
+  <div class="section">
+    <!--<div class="header">
+      <h2>Today's Top Hits</h2>
+    </div>
+
+     Song 1 -->
+     <div class="song">
+      <div class="cover">
+        <img src="po.jpg" alt="Blinding Lights">
+      </div>
+      <div class="info">
+        <div class="title">P.O.V (Point Of View) </div>
+        <div class="artist">Karan Aujla</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio1', this)">▶</button>
+      <audio id="audio1" src="P.O.V (Point Of View) - Karan Aujla.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="aam.jpg" alt="Levitating">
+      </div>
+      <div class="info">
+        <div class="title">Aam Jahe Munde</div>
+        <div class="artist">Parmish Verma</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio2', this)">▶</button>
+      <audio id="audio2" src="Aam Jahe Munde - Parmish Verma.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="pun.jpg" alt="As It Was">
+      </div>
+      <div class="info">
+        <div class="title">What's Punjab</div>
+        <div class="artist">Gurtaj</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio3', this)">▶</button>
+      <audio id="audio3" src="Whats Punjab - Gurtaj (DJJOhAL.Com).mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="born.jpg" alt="295">
+      </div>
+      <div class="info">
+        <div class="title">Born To Shine</div>
+        <div class="artist">Diljit Dosanjh</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio4', this)">▶</button>
+      <audio id="audio4" src="Born To Shine - Diljit Dosanjh.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="fell.jpg" alt="Excuses">
+      </div>
+      <div class="info">
+        <div class="title">Fella's Forever</div>
+        <div class="artist">Hustinder</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio5', this)">▶</button>
+      <audio id="audio5" src="Fella S Forever - Hustinder .mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="puj.jpg" alt="Flowers">
+      </div>
+      <div class="info">
+        <div class="title">Punjan Intro</div>
+        <div class="artist">Arjan Dhillon </div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio6', this)">▶</button>
+      <audio id="audio6" src="Punjab Intro - Arjan Dhillon.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="bt.jpg" alt="Industry Baby">
+      </div>
+      <div class="info">
+        <div class="title">Itz A Hustle</div>
+        <div class="artist">Karan Aujla</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio7', this)">▶</button>
+      <audio id="audio7" src="Itz A Hustle - DjPunjab.Com.Se.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="rabb.jpg" alt="Calm Down">
+      </div>
+      <div class="info">
+        <div class="title">Rabb Da Radio</div>
+        <div class="artist">Tarsem Jassar</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio8', this)">▶</button>
+      <audio id="audio8" src="Rabb Da Radio - Sharry Mann.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="ra.jpg" alt="Stay">
+      </div>
+      <div class="info">
+        <div class="title">Rahiye Hassde</div>
+        <div class="artist">Khan Bhaini</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio9', this)">▶</button>
+      <audio id="audio9" src="Rahiye Hasde - Khan Bhaini.mp3"></audio>
+    </div>
+
+    <div class="song">
+      <div class="cover">
+        <img src="pro.jpg" alt="Kill Bill">
+      </div>
+      <div class="info">
+        <div class="title">Proud To Be Desi</div>
+        <div class="artist">Khan Bhaini</div>
+      </div>
+      <button class="play-btn" onclick="togglePlay('audio10', this)">▶</button>
+      <audio id="audio10" src="Proud To Be Desi - Khan Bhaini.mp3"></audio>
+    </div>
+  </div>
+
+  <script>
+    let currentAudio = null;
+    let currentButton = null;
+
+    function togglePlay(audioId, button) {
+      const audio = document.getElementById(audioId);
+
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+        if (currentButton) currentButton.textContent = "▶";
+      }
+
+      if (audio.paused) {
+        audio.play();
+        button.textContent = "⏸";
+        currentAudio = audio;
+        currentButton = button;
+      } else {
+        audio.pause();
+        button.textContent = "▶";
+      }
+
+      audio.onended = () => {
+        button.textContent = "▶";
+      };
+    }
+  </script><br><br>
+  <footer>
+    <p>&copy; 2025 SoulSounds</p>
+  </footer>
+</body>
+</html>
